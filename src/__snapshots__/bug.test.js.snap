@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`child style to be read by toHaveStyleRule 1`] = `
+.emotion-2 {
+  color: red;
+}
+
+.emotion-2 .emotion-1 {
+  color: yellow;
+}
+
+.emotion-0 {
+  color: blue;
+}
+
+<Foo>
+  <div
+    className="emotion-2 emotion-3"
+  >
+    <Bar>
+      <div
+        className="emotion-0 emotion-1"
+      />
+    </Bar>
+  </div>
+</Foo>
+`;
